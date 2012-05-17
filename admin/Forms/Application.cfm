@@ -1,0 +1,2 @@
+<cfapplication name="library_internal" sessionmanagement="yes" setclientcookies="yes" sessiontimeout="#CreateTimeSpan(0,1,0,0)#">
+<cfif NOT ISDEFINED("SESSION.Access")><cflocation url="../Index.cfm"></cfif>

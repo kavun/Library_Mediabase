@@ -1,0 +1,1 @@
+<cfapplication name="library_internal" sessionmanagement="yes" setclientcookies="yes" sessiontimeout="#CreateTimeSpan(0,1,0,0)#">
